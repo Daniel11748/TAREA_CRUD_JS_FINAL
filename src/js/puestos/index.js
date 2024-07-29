@@ -36,7 +36,7 @@ const getPuestos = async (alerta = 'si') => {
                     timer: 3000,
                     timerProgressBar: true,
                     icon: "success",
-                    title: 'Pacientes encontrados',
+                    title: 'Puestos encontrados',
                     didOpen: (toast) => {
                         toast.onmouseenter = Swal.stopTimer;
                         toast.onmouseleave = Swal.resumeTimer;
